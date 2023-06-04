@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#1E1E1E;
+  color:#FFFFFF;
+}
+.header{
+  padding: 8px;
+  position: fixed;
+}
+
+.card{
+box-sizing: border-box;
+width: 203px;
+height: 350px;
+position: relative;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 3px;
+margin: 2rem;
+padding: 0.5rem;
+}
+p{
+  margin-top: 7px;
+}
+.postsContainer{
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  padding-left: 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.detailImage{
+  border-radius: 15px ;
+}
+
+.details p{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.postDetailContainer{
+  padding: 30px;
+}
+
+
